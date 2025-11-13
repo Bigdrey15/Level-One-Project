@@ -1,0 +1,18 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+form{
+    border: solid black;
+    justify-self: center;
+    text-align: center;
+    /* padding: 50px 150px ; */
+}
+.container1{
+    border-top: solid white;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}

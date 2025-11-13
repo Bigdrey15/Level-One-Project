@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout page2</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+<style>
+  .{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+  }
+  .navbar{
+    padding-left: 20px;
+}
+.container-fluid{
+    /* padding: 10px; */
+}
+.nav1{
+    
+}
+#navbarNav{
+padding-left: 100px;
+}
+.navbar-nav{
+gap: 150px;
+}
+.containerflex{
+    display: flex;
+    justify-content: center;
+}
+.round{
+    margin: 20px 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.round1{
+    border: solid red 1px;
+    border-radius: 100px;
+    width: 50px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.line{
+    border: solid red 2px;
+    width: 70px;
+    height: 2px;
+}
+.round2{
+     border: solid red 1px;
+    border-radius: 100px;
+    width: 50px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.billings{
+    margin: 20px;
+    text-align: center;
+}
+.bills{
+   display: flex;
+   justify-content: space-around; 
+   margin-top: 4px;
+}
+.line1{
+    border: solid black 1px;
+    height: 2px;
+    width: 57.5%;
+    justify-self: center;
+}
+.bills-container{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin: 15px;
+}
+.line2{
+    border: solid black 2px;
+}
+.paystack{
+    justify-self: center;
+}
+.form{
+    justify-items: center;
+}
+.form1{
+    display: flex;
+    gap: 4px;
+    padding-top: 15px;
+    margin-right: 150px;
+}
+.form input{
+  width: 400px;
+  padding: 12px 8px;
+  border-radius: 15px;
+  margin-bottom: 20px;
+}
+.form button{
+    width: 150px;
+    border-radius: 8px;
+    padding: 6px;
+    background-color: red;
+    color: white;
+    border: none;
+    margin-bottom: 10px;
+}
+.cart-section{
+    justify-content: space-around;
+    display: flex;
+
+}
+
+.list-content ul li{
+    list-style: none;
+    /* color: white; */
+}
+</style>
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid ">
+    <div class="nav1 d-flex flex-lg-row flex-column">
+      <a class="navbar-brand" href="#"><img src="./figma.image/Frame 35172.png" alt=""></a>
+    <a class="navbar-brand ps-5" href="#"><img src="./figma.image/ic_round-search.png" alt=""></a>
+    </div>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ">
+        <li class="nav-item">
+          <a class="nav-link" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Bookstores</a>
+        </li>
+         <li class="nav-item">
+          <a class="nav-link" href="#">Help</a>
+        </li>
+         <li class="nav-item">
+           <a class="nav-link" href="#"><img src="./figma.image/Vector.png  " alt=""></a>
+        </li>
+        <li class="nav-item">
+           <a class="nav-link" href="#"><img src="./figma.image/Vector (1).svg" alt=""></a>
+        </li>
+         <li class="nav-item">
+          <a class="nav-link" href="#"><img src="./figma.image/Vector (2).svg" alt=""></a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<div class="containerflex">
+    <div>
+        <h3 style="color: #9A949433;">Shopping Cart <a href=""><img src="./checkout2/Vector (4).svg" alt="" style="opacity: 0.3;"></a></h3>
+    </div>
+    <div>
+        <h3>Checkout Details <a href=""><img src="./checkout2/Vector (4).svg" alt=""></a></h3>
+    </div>
+    <div>
+        <h3 style="color: #9A949433;">Order Complete <a href=""><img src="./checkout2/Vector (4).svg" alt="" style="opacity: 0.3;"></a></h3>
+    </div>
+   </div>
+   <div class="round">
+    <div class="round1">1</div>
+    <div class="line"></div>
+    <div class="round2">2</div>
+   </div>
+
+   <div class="billings">
+    <h2>Billing Details</h2>
+    <h3>Your Order</h3>
+   </div>
+
+   <div class="bills">
+      <div><h3>PRODUCTS</h3></div>
+      <div><h3>SUBTOTAL</h3></div>
+   </div>
+   <div class="line1"></div>
+
+   <div class="bills-container">
+    <div>
+    <div>Real Americans x1</div>
+    <div>Delivery fee</div>
+   </div>
+   <div>
+    <div>NGN10,183</div>
+    <div>NGN4,000</div>
+    <div class="line2"></div>
+    <div>NGN14,183</div>
+   </div>
+   </div>
+
+   <div class="line1"></div>
+
+    <div class="bills-container">
+    <div>
+    <div>Atomic Habits x1</div>
+    <div>Delivery fee</div>
+   </div>
+   <div>
+    <div>NGN3,700</div>
+    <div>NGN4,400</div>
+    <div class="line2"></div>
+    <div>NGN7,700</div>
+   </div>
+   </div>
+
+    <div class="line1"></div>
+    <div class="bills">
+        <div> <h3>Total</h3></div>
+        <div> <h3>NGN21,883</h3></div>
+    </div>
+     <h2 class="billings">Select Payment Method</h2>
+     <div class="paystack">
+        <img src="./figma.image/paystack w.png" width="220px" alt="">
+    </div>
+
+     <form class="form">
+        <div class="form1">
+            <div><img src="./figma.image/Group 8.png"  width="25px"></div>
+            <div><h4>Credit Or Debit Card</h4></div>
+        </div>
+        <div>
+            <h5>Add A Card*</h5>
+            <input type="text" placeholder="Add A Card" name="" id="">
+        </div>
+         <div>
+            <h5>Name On Card</h5>
+            <input type="text" placeholder="Name On Card" name="" id="">
+        </div>
+         <div>
+            <h5>Expirition Date</h5>
+            <input type="text" placeholder="MM/YYYYY" name="" id="">
+        </div>
+         <div>
+            <h5>CVV*</h5>
+            <input type="text" placeholder="CVV" name="" id="">
+        </div>
+        <div style="display: flex;">
+            <input style="width: 50px; color: black;" type="checkbox">
+            <p>I have read and agreed to the website's <a style="color: red; text-decoration: none;" href="">terms and conditions</a> </p>
+        </div>
+        <div>
+            <a href=""><button>Save</button></a>
+        </div>
+     </form>
+     <div class="cart-section">
+       <div class="order">
+            <a href=""><button style="width: 250px; background-color: red; color: white; padding: 10px; border: none; border-radius: 15px;">Place order</button></a>
+      </div>
+       <div class="continue">
+            <a href=""><button style="width: 250px; background-color: white; color: black; padding: 10px; border-color: red; border-radius: 15px;">Continue Shopping</button></a>
+        </div>
+     </div>
+
+      <div>
+        <img style="background-color: black;" src="./figma.image/rectangle81.png" width="100%"  alt="">
+      </div>
+      <div  style="background-color: rgba(0, 0, 0, 10); color: white;">
+        <div class="d-flex  flex-lg-row flex-column justify-content-center gap-5 align-items-center list-content">
+          <div class="d-flex gap-5 pb-4">
+            <ul>
+            <li><h4>Library</h4></li>
+            <li>Genres</li>
+            <li>Languages</li>
+            <li>Authors</li>
+          </ul>
+          <ul>
+            <li><h4>Company</h4></li>
+            <li>About Us</li>
+            <li>Help</li>
+            <li>Become A Partner</li>
+          </ul>
+          </div>
+          <div class="d-flex flex-column align-items-center">
+            <h4>Get the app</h4>
+       <img src="./figma.image/download path.png" alt="">
+          </div>
+        </div>
+        <div class="d-flex justify-content-around align-items-center">
+       <div>
+        <span>Contact us <img src="./figma.image/social handle.png" alt=""></span>
+       </div>
+       <span>Privacy Policy</span>
+       <span>Terms and Privacy</span>
+       <span>Delivery& Returns</span>
+        </div>
+      </div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</html>

@@ -1,0 +1,115 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+.navbar{
+    
+}
+.container-fluid{
+    padding: 10px;
+}
+.nav1{
+    
+}
+#navbarNav{
+  padding-left: 250px;
+  
+}
+.navbar-nav{
+gap: 150px;
+}
+.containerflex{
+    display: flex;
+    justify-content: center;
+}
+.round{
+    margin: 20px 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.round1{
+    border: solid red 1px;
+    border-radius: 100px;
+    width: 50px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.line{
+    border: solid red 2px;
+    width: 70px;
+    height: 2px;
+}
+.round2{
+     border: solid red 1px;
+    border-radius: 100px;
+    width: 50px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.billings{
+    margin: 20px;
+    text-align: center;
+}
+.bills{
+   display: flex;
+   justify-content: space-around; 
+   margin-top: 4px;
+}
+.line1{
+    border: solid black 1px;
+    height: 2px;
+    width: 57.5%;
+    justify-self: center;
+}
+.bills-container{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin: 15px;
+}
+.line2{
+    border: solid black 2px;
+}
+.paystack{
+    justify-self: center;
+}
+.form{
+    justify-items: center;
+}
+.form1{
+    display: flex;
+    gap: 4px;
+    padding-top: 15px;
+    margin-right: 150px;
+}
+.form input{
+  width: 400px;
+  padding: 12px 8px;
+  border-radius: 15px;
+  margin-bottom: 20px;
+}
+.form button{
+    width: 150px;
+    border-radius: 8px;
+    padding: 6px;
+    background-color: red;
+    color: white;
+    border: none;
+    margin-bottom: 10px;
+}
+.cart-section{
+    justify-content: space-around;
+    display: flex;
+
+}
+
+.list-content ul li{
+    list-style: none;
+    /* color: white; */
+}

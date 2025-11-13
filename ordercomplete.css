@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+.nav1{
+    margin-left: 30px;
+    gap: 20px;
+}
+.navbar-nav{
+    gap: 100px;
+    margin-left: 200px;
+}
+
+.border{
+    width: 500px;
+}
+.last{
+    justify-self: center;
+    
+}
+
+/* @media (max-width: 768px) {
+  .containerflex-hide{
+ display: none;
+}
+} */
