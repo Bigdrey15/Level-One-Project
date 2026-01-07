@@ -8,11 +8,11 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
 </head>
 <style>
-div .navbar{
+/* div .navbar{
 justify-content: space-between;
 color: white;
 padding: 40px;
-}
+} */
 .container1 .card-img{
     filter: opacity(1);
 }
@@ -54,12 +54,36 @@ footer h5{
     border-right: none;
     gap: 150px;
  }
+ @media (max-width: 768px) {
+   .navbar{
+     flex-direction: column;
+   }
+   .nav{
+    display: inline-flex;
+   }
+    }
 </style>
 <body>
+
     <div class="container1">
   <img src="./figma.image/homepage image.png" class="card-img" height="750px" alt="...">
   <div class="card-img-overlay" >
-      <div class="navbar" >
+    <div class="navbar" style="display: flex; padding: 20px;">
+      <nav style="display: flex; list-style-type: none;">
+        <li><img src="./figma.image/homepage bookdiverse.png" width="230px" alt=""></li>
+        <li style="margin-left: 180px;"><img src="./figma.image/homepage search.png"  alt=""></li>
+    </nav>
+    <nav style="display: flex; list-style-type: none;">
+    <li style="color: white; margin-left: 5px; font-size: 20px;">Bookstores</li>
+    <li style="color: white; margin-left: 50px; font-size: 20px;">Help</li>
+    <li style="margin-left: 180px;"><img src="./figma.image/homepage love.png" alt=""></li>
+    <li style="margin-left: 180px;"><img src="./figma.image/homepage cart.png" alt=""></li>
+    <li style="margin-left: 180px;"><img src="./figma.image/homepage contact.png" alt=""></li> 
+    <li class="nav" style="color: white; display: none;"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="M3 8h18a1 1 0 0 0 0-2H3a1 1 0 0 0 0 2m18 8H3a1 1 0 0 0 0 2h18a1 1 0 0 0 0-2m0-5H3a1 1 0 0 0 0 2h18a1 1 0 0 0 0-2"/></svg></li>
+    </nav>
+    </div>
+    
+      <!-- <div class="navbar" >
     <h5 class=""><img src="./figma.image/homepage bookdiverse.png" alt=""></h5>
     <h5 class="card-title"><img src="./figma.image/homepage search.png"  alt=""></h5>
     <h5 class="card-title">Bookstores</h5>
@@ -67,7 +91,7 @@ footer h5{
     <h5 class="card-title"><img src="./figma.image/homepage love.png" alt=""></h5>
     <h5 class="card-title"><img src="./figma.image/homepage cart.png" alt=""></h5>
     <h5 class="card-title"><img src="./figma.image/homepage contact.png" alt=""></h5>
-   </div>
+   </div> -->
     <p class="card-text">Shop At Your Convenience-Anytime,Anywhere</p>
   </div>
 </div>
@@ -179,7 +203,7 @@ footer h5{
     </footer>
         
         <footer class="container5">
-            <div class="d-flex">
+            <div style="display: flex; gap: 2px;">
                 <div><h5>Contact us:</h5></div>
                 <div style="padding-left: 2px;"><img src="./figma.image/social handle.png   " width="80px" alt=""></div>
             </div>
